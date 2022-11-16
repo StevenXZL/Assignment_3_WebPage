@@ -1,0 +1,38 @@
+/* Set page theme to light mode at beginning. */
+:root {
+    --primary-color: #95776f;
+    --secondary-color: #86776f;
+    --bg-color: #f0ebdb;
+    --font-color: #504742;
+    --heading-color: #022d62;
+    /* Heading colour is differnt, customize it myself */
+}
+
+/* Dark theme colourscheme */
+[dark-theme="dark"] {
+    --primary-color: #A5C9CA;
+    --secondary-color: #395B64;
+    --bg-color: #2C3333;
+    --font-color: #E7F6F2;
+    --heading-color: antiquewhite;
+    /* Heading colour is differnt, customize it myself */
+}
+
+
+/* Set heading colours */
+.Headings {
+    color: var(--heading-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+.ul-1 {
+    color: var(--primary-color);
+}
+
+.ul-2 {
+    color: var(--secondary-color);
+}
